@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <title>抖音 1080x1920 保守安全区参考</title>
+  <desc>红色半透明为建议避让区：顶部 120、底部 300、右侧 120。不是平台官方规范，发布前请用抖音预览复核。</desc>
+
+  <!-- 安全区外框：x 60..960, y 120..1620 -->
+  <rect x="60" y="120" width="900" height="1500" fill="none" stroke="#00E676" stroke-width="4" stroke-dasharray="18 12" opacity="0.9"/>
+
+  <!-- 顶部避让 -->
+  <rect x="0" y="0" width="1080" height="120" fill="#FF3B30" opacity="0.22"/>
+  <text x="540" y="76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="30" fill="#FFFFFF" opacity="0.9">顶部避让 120px</text>
+
+  <!-- 底部避让 -->
+  <rect x="0" y="1620" width="1080" height="300" fill="#FF3B30" opacity="0.22"/>
+  <text x="540" y="1776" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="30" fill="#FFFFFF" opacity="0.9">底部避让 300px（字幕建议 y ≤ 1600）</text>
+
+  <!-- 右侧避让 -->
+  <rect x="960" y="120" width="120" height="1500" fill="#FF3B30" opacity="0.22"/>
+  <text x="1020" y="860" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="26" fill="#FFFFFF" opacity="0.9" transform="rotate(90 1020 860)">右侧避让 120px</text>
+
+  <!-- 左侧边缘 -->
+  <rect x="0" y="120" width="60" height="1500" fill="#FFB300" opacity="0.16"/>
+  <text x="30" y="860" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9" transform="rotate(90 30 860)">左侧 60px</text>
+
+  <!-- 中心十字 -->
+  <line x1="540" y1="900" x2="540" y2="1020" stroke="#00E676" stroke-width="3" opacity="0.7"/>
+  <line x1="480" y1="960" x2="600" y2="960" stroke="#00E676" stroke-width="3" opacity="0.7"/>
+
+  <!-- 图例 -->
+  <text x="80" y="1810" font-family="Noto Sans CJK SC, sans-serif" font-size="24" fill="#FFFFFF" opacity="0.75">绿框 = 内容安全区；红色 = 建议避让；发布前用抖音预览复核</text>
+</svg>

@@ -1,0 +1,7 @@
+interface:
+  display_name: "口播视频制作"
+  short_description: "按 TP01/TP02 模板制作口播与资讯视频，并执行交付前自检"
+  default_prompt: "使用 $oral-video-production 帮我完成……"
+
+policy:
+  allow_implicit_invocation: true
