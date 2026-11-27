@@ -1,0 +1,62 @@
+{
+  "version": "1.1",
+  "updated": "2026-11-27",
+  "templates": [
+    {
+      "id": "TP01",
+      "name": "蓝图资讯版",
+      "version": "v1.1",
+      "status": "active",
+      "use": "资讯、数据、公告、证据型内容；无口播或弱口播",
+      "reference": "references/tp01-blueprint-news.md",
+      "sample": "/home/user/Doubao/chats/38455869952911874/20261126_01_bauma_green_giant/out/master_v3_final.mp4",
+      "sampleCdn": "https://aka.doubaocdn.com/s/xwStY1ws79",
+      "previewCdn": "https://aka.doubaocdn.com/s/GmGsj9ELU5",
+      "notes": "v3 已将底部信息卡上移到 bottom 300，避免抖音底部 UI 遮挡；仓库不存 JPG 预览，用 previewCdn"
+    },
+    {
+      "id": "TP02",
+      "name": "红米口播版",
+      "version": "v1.1",
+      "status": "active",
+      "use": "口播、访谈、故事、前后对比",
+      "reference": "references/tp02-red-cream-oral.md",
+      "sample": "/home/user/Doubao/chats/38456561376081154/ep05/remotion/out/05_一百年_中国从求人变成被求_v2.mp4",
+      "sampleCdn": "https://aka.doubaocdn.com/s/YYp26D6jRG",
+      "sampleV1Cdn": "https://aka.doubaocdn.com/s/cF4UbGHR17",
+      "previewCdn": "https://aka.doubaocdn.com/s/pqeq6n5JgQ",
+      "notes": "字幕条 y1132-1226，天然在 1080×1920 保守安全区内；v2 每个句界有 1 帧空白，只作版式参考，字幕实现须改为瞬时换字；仓库不存 JPG 预览，用 previewCdn"
+    },
+    {
+      "id": "TP03",
+      "name": "数据图解版",
+      "status": "reserved",
+      "use": "单屏数据、对比图、排行榜",
+      "reference": null,
+      "notes": "预留；先跑真实样片再启用"
+    },
+    {
+      "id": "TP04",
+      "name": "人物对谈版",
+      "status": "reserved",
+      "use": "双人/多人对谈、访谈切片",
+      "reference": null,
+      "notes": "预留；需要双画面安全区与说话人高亮"
+    },
+    {
+      "id": "TP05",
+      "name": "纯素材氛围版",
+      "status": "reserved",
+      "use": "无口播、氛围、品牌形象",
+      "reference": null,
+      "notes": "预留；以 BGM 和素材节奏为主"
+    }
+  ],
+  "legacy": [
+    {
+      "id": "T01-T03",
+      "status": "historical",
+      "notes": "旧资讯视频三套包装模板；不与 TP 编号混用，不作为现行调用入口"
+    }
+  ]
+}
